@@ -1,0 +1,60 @@
+html
+{
+    padding: 0;
+    margin: 0;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+body 
+{
+    background-color: azure;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 97vh;
+}
+#container
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color:aliceblue;
+    padding: 20px;
+    width: 400px;
+    height: 500px;
+    border: 1px solid grey;
+    border-radius: 10px;
+}
+#text
+{
+    padding: 15px;
+    width: 250px;
+    margin: 5px;
+    border: 1px solid black;
+    border-radius: 10px;
+    outline: none;
+}
+#Submit
+{
+    padding: 10px;
+    width: 70px;
+    border: none;
+    background-color: blue;
+    color: ghostwhite;
+    border-radius: 10px;
+    font-weight: 400;
+    font-size: 15px;
+    cursor: pointer;
+}
+#image
+{
+    margin:60px;
+}
+p
+{
+    font-style: italic;
+    font-size: 15px;
+    margin-top: auto;
+    font-weight: 700;
+    color: cornflowerblue;
+}
